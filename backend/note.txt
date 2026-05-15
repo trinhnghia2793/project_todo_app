@@ -1,0 +1,22 @@
+Task (model) --> Đại diện cho một loại dữ liệu cụ thể
+{
+    title: "hoc react",
+    status: "active",
+    completedAt: "2025-09-24 09:00",
+    createdAt: "2025-09-24 00:00",
+    updatedAt: "2025-09-24 01:00",
+}
+
+Task (schema) --> Định nghĩa trong model sẽ có những trường nào & thông tin chi tiết về trường đó
+{
+    title: {
+        type: String, 
+        required: true,
+    },
+    status: {
+        type: String,
+    },
+    ...
+}
+
+--> Schema là bản thiết kế trực tiếp của Model
